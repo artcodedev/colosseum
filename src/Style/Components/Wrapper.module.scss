@@ -1,0 +1,30 @@
+.Wrapper {
+
+    width: 100%;
+    max-width: 475px;
+    background: rgb(255, 255, 255);
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #8a85858f;
+
+    &_cont {
+        position: relative;
+        width: 343px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 475px) {
+    .Wrapper {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0px;
+        box-shadow: 0 0 20px #8a858500;
+        &_cont {
+            width: 95%;
+            max-width: 375px;
+            margin: auto;
+        }
+    }
+}

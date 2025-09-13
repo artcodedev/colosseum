@@ -1,0 +1,32 @@
+.Counter {
+    &_cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:105px;
+        margin-top: 6px;
+
+        &>button {
+            background: none;
+            height: 24px;
+   
+            border: none;
+
+            & > img {
+                cursor: pointer;
+            }
+ 
+            &>span {
+                width: 15px;
+                height: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        &_res {
+            color: #1E1B1B;
+            font-weight: 400;
+        }
+    }
+}

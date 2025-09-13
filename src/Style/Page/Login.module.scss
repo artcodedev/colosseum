@@ -1,0 +1,54 @@
+.Login {
+
+
+    &_wrapper {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_cont {
+
+            border: 1px solid #9c9c9c;
+            display: block;
+            border-radius: 10px;
+            padding: 20px;
+            width: 100%;
+            max-width: 320px;
+
+            &_wrap {
+                margin-bottom: 10px;
+
+                &_input {
+                    width: 100%;
+                }
+
+                &_but {
+                    width: 100%;
+                    margin: 0;
+                }
+            }
+
+
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .Login {
+
+        &_wrapper {
+
+            &_cont {
+                border: 1px solid #9c9c9c;
+                display: block;
+                border-radius: 10px;
+                padding: 20px;
+                width: 90%;
+                margin-left: 10px;
+                margin-right: 10px;;
+
+            }
+        }
+    }
+}

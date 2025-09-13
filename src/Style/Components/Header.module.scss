@@ -1,0 +1,23 @@
+
+.Header {
+    padding-top: 40px;
+
+    & > a {
+        text-decoration: none;
+        color: #1E1B1B;
+        font-weight: bold;
+    }
+
+    &_cont {
+        display: flex;
+        justify-content: start;
+
+        &_logo {
+            font-family: "Cinzel", serif;
+            font-size: 12px;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-left: 4px;
+        }
+    }
+}

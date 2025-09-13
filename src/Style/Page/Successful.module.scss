@@ -1,0 +1,133 @@
+.Successful {
+
+    &_title {
+        text-align: center;
+        color: #1FAF38;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 16px;
+    }
+
+    &_u_txt_footer {
+        margin-top: 8px;
+        color: #1C1C1D;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    &_u_title {
+        margin-top: 8px;
+        color: #1C1C1D;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    &_but {
+        margin-top: 14px;
+
+        &_whatsup {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &>span:nth-child(2) {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    &_info {
+        margin-top: 24px;
+
+        &_email {
+            &_title {
+                color: #1E1B1B;
+                font-size: 12px;
+                opacity: .5;
+            }
+
+            &_email {
+                margin-top: 4px;
+                color: #2F2D2E;
+                color: 18px;
+                font-weight: 600;
+
+            }
+        }
+
+        &_title {
+            color: #1E1B1B;
+            font-size: 15px;
+            font-weight: 700;
+            opacity: 0.5;
+            text-align: center;
+        }
+
+        &_line {
+            border-top: 1.6px solid #1E1B1B;
+            margin: 16px 0px;
+            opacity: .2;
+        }
+
+        &_details {
+            display: flex;
+            margin-top: 16px;
+
+            &>&_item:nth-child(1) {
+                width: 46%;
+            }
+
+            &>&_item:nth-child(2) {
+                width: 40%;
+            }
+
+            &_item {
+                height: 63px;
+
+                &_line {
+                    border-left: 1.6px solid #1E1B1B;
+                    height: 63px;
+                    margin: 0px 16px;
+                    opacity: .2;
+                }
+
+                &_title {
+                    color: #1E1B1B;
+                    font-size: 12px;
+                    opacity: .5;
+                    font-weight: 500;
+                }
+
+                &_data {
+                    height: 44px;
+                    margin-top: 4px;
+                    display: flex;
+                    font-size: 16px;
+                    color: #2F2D2E;
+                    font-weight: 600;
+                    align-items: center;
+                    word-wrap: anywhere;
+                    text-overflow: ellipsis;
+
+                    &_tarif {
+                        &>div:nth-child(1) {
+                            color: #2F2D2E;
+                            font-size: 16px;
+                            font-weight: 600;
+                            margin-top: 4px;
+                        }
+
+                        &>div:nth-child(2) {
+                            color: #574D4E;
+                            font-size: 10px;
+                            font-weight: 500;
+                            margin-top: 4px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+}

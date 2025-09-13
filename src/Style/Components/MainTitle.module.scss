@@ -1,0 +1,27 @@
+
+
+.MainTitle {
+    margin-top: 20px;
+
+    &_h1 {
+        font-family: "Cinzel", serif;
+        font-size: 28px;
+        padding: 0;
+        margin: 0;
+        color: #1E1B1B;
+        text-align: center;
+
+        & > span {
+            color: #2D5DFA;
+        }
+    }
+    &_h2 {
+        color: #574D4E;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0;
+        margin: 6px 0px 0px 0px;
+    }
+}
